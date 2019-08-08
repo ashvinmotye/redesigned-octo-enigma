@@ -1,0 +1,12 @@
+Ce fichier présente les contraintes techniques :
+
+L'outil principal est Visual Studio Code avec :
+* Node.js avec npm
+* Angular cli
+* Si nécessaire une bibliothèque de composants comme primeng ou material design components 
+
+Exemples de ressources :
+https://material.angular.io/components/categories
+https://www.primefaces.org/primeng/#/
+
+https://www.codeproject.com/Articles/1253487/Introduction-of-Angular-and-How-to-Setup-Environme

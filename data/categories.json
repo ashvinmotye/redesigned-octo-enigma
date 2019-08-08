@@ -1,0 +1,38 @@
+[
+  {
+    "name": "urgent",
+    "id": 1
+  },
+  {
+    "name": "spam",
+    "id": 2
+  },
+  {
+    "name": "work",
+    "id": 3
+  },
+  {
+    "name": "personal",
+    "id": 4
+  },
+  {
+    "name": "meeting",
+    "id": 5
+  },
+  {
+    "name": "resume",
+    "id": 6
+  },
+  {
+    "name": "ads",
+    "id": 7
+  },
+  {
+    "name": "events",
+    "id": 8
+  },
+  {
+    "name": "notifications",
+    "id": 9
+  }
+]

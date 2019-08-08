@@ -1,0 +1,24 @@
+Ce fichier présente la structure des données :
+Les résultats sont présentés au format JSON dans le dossier data.
+Ce dossier comporte deux fichiers :
+	- entities.json : une liste des entités détectées(person,location, organization)
+	- categories.json : une liste des catégories de classement des mails
+
+Puis, 3 pages de résultats sont renvoyées par les services web, leur structure est :
+
+	- raw_emails.json : données brutes au format EMAIL : (id(string),sender(string),recipients(string),
+cc(string),subject(string),text(string),date(string),
+category(int),entities([string]))
+
+	- emails_by_category.json : données classées par catégorie (cf categories.json) 
+au format (category_id(int),emails([EMAIL])
+
+	- emails_by_entity_location : données classées par entité de lieu :
+au format (entity_type(string),groups([entity(string),EMAIL])
+
+	- emails_by_entity_person : données classées par entity de personne :
+au format (entity_type(string),groups([entity(string),EMAIL])
+
+	 emails_by_entity_organization : données classées par entity d'organisation :
+au format (entity_type(string),groups([entity(string),EMAIL])
+
